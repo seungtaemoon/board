@@ -34,4 +34,5 @@ public class BoardController {
     public BoardResponseDto deleteBoard(@PathVariable Long id, @RequestBody BoardRequestDto requestDto) {
         return boardService.deleteBoard(id, requestDto);
     }
+
 }
